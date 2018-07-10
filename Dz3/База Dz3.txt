@@ -1,0 +1,55 @@
+CREATE DATABASE Score
+GO
+USE Score
+GO
+CREATE TABLE Seller
+(Id int NOT NULL PRIMARY KEY IDENTITY(1,1),
+FirstName NVARCHAR (30) NOT NULL,
+LastName NVARCHAR (30) NOT NULL)
+GO
+
+INSERT Seller
+VALUES
+('Сергей','Сергеевич'),
+('Игорь','Петрович'),
+('Франко','Франциско'),
+('Фабрицио','Пирлу');
+
+CREATE TABLE Buyer
+(Id int NOT NULL PRIMARY KEY IDENTITY(1,1),
+FirstName nvarchar (30) NOT NULL,
+LastName nvarchar (30) NOT NULL,
+Moneyy decimal NOT NULL,
+Purchases int NOT NULL)
+GO
+
+INSERT Buyer
+VALUES
+('Жано','Кусто',50000,0),
+('Жужу','Женко',50000,0),
+('Мишель','Карибо',50000,0),
+('Фабрик','Фигу',50000,0);
+
+CREATE TABLE Product
+(Id int NOT NULL PRIMARY KEY IDENTITY(1,1),
+NamePoduct nvarchar(30) NOT NULL,
+Amount int NOT NULL,
+Prase decimal NOT NULL)
+GO
+INSERT Product
+VALUES
+('LG',10, 7000),
+('Goreniy',10, 8000),
+('AEG',10, 6500),
+('SAMSUNG',10, 9000),
+('Vesrfrost',10, 10000);
+
+CREATE TABLE Checks
+(Id int NOT NULL PRIMARY KEY IDENTITY(1,1),
+DataSale date NOT NULL,
+IdBuyer int NOT NULL FOREIGN KEY REFERENCES Buyer(Id) ON DELETE CASCADE,
+IdSeller int NOT NULL FOREIGN KEY REFERENCES Seller(Id) ON DELETE CASCADE,
+Position nvarchar(200) NOT NULL,
+AmountPosition int NOT NULL,
+Summa decimal NOT NULL)
+GO

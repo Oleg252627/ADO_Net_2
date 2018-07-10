@@ -1,0 +1,13 @@
+E:\proga_Visual\ADO_net\Dz3zad1\Dz3zad1\bin\Debug\Dz3zad1.exe.config
+E:\proga_Visual\ADO_net\Dz3zad1\Dz3zad1\bin\Debug\Dz3zad1.exe
+E:\proga_Visual\ADO_net\Dz3zad1\Dz3zad1\bin\Debug\Dz3zad1.pdb
+E:\proga_Visual\ADO_net\Dz3zad1\Dz3zad1\obj\Debug\Dz3zad1.csprojAssemblyReference.cache
+E:\proga_Visual\ADO_net\Dz3zad1\Dz3zad1\obj\Debug\Dz3zad1.Form1.resources
+E:\proga_Visual\ADO_net\Dz3zad1\Dz3zad1\obj\Debug\Dz3zad1.Properties.Resources.resources
+E:\proga_Visual\ADO_net\Dz3zad1\Dz3zad1\obj\Debug\Dz3zad1.csproj.GenerateResource.cache
+E:\proga_Visual\ADO_net\Dz3zad1\Dz3zad1\obj\Debug\Dz3zad1.csproj.CoreCompileInputs.cache
+E:\proga_Visual\ADO_net\Dz3zad1\Dz3zad1\obj\Debug\Dz3zad1.exe
+E:\proga_Visual\ADO_net\Dz3zad1\Dz3zad1\obj\Debug\Dz3zad1.pdb
+E:\proga_Visual\ADO_net\Dz3zad1\Dz3zad1\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\proga_Visual\ADO_net\Dz3zad1\Dz3zad1\obj\Debug\Dz3zad1.csproj.CopyComplete
+E:\proga_Visual\ADO_net\Dz3zad1\Dz3zad1\obj\Debug\Dz3zad1.Zakaz.resources
